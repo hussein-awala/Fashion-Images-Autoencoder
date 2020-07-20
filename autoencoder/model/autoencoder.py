@@ -3,6 +3,7 @@ from tensorflow.keras.layers import Input, UpSampling2D, Flatten, Conv2D, MaxPoo
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.optimizers import Adam
+import matplotlib.pyplot as plt
 
 
 class Autoencoder:
